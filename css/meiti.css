@@ -1,0 +1,60 @@
+@media (min-width: 1200px) {
+	.container{
+		width: 970px;
+	}
+}
+
+@media (max-width: 992px) {
+	.carou .item .img-change{
+		width: 1500px;
+	}
+	.call-list h2{
+		font-size: 21px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.topbar .navbar-brand{
+		padding: 0px;
+    	padding-top: 0px;
+    	padding-bottom: 49px;
+    	margin-left: 13px;
+	}
+	
+	.carou .item .img-change{
+		width: 250%;
+		margin-left: -240px;
+	}
+	.effect-show2:hover{
+		transform: none;
+	}
+
+	.kehu-show{
+		margin-bottom: 153px;
+	}
+
+	.call-list{
+		border-right: 0px;
+	}
+	.footer-fixed{
+		display: block;
+		z-index: 999;
+	}
+	.celan{
+		display: none;
+	}
+
+}
+
+@media (max-width: 767px){
+	.topbar .navbar-right li{
+		float: none;
+		display: block;
+	}
+	.call-list h2{
+		font-size: 30px !important;
+	}
+
+}
+
+
