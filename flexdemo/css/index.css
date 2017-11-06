@@ -1,0 +1,162 @@
+
+body{
+    padding-top: 44px;
+    padding-bottom: 56px;
+}
+
+.top-part{
+	background: #C62F2F;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 10;
+}
+
+.top-part-left{
+	padding: 10px;
+	/* padding-left: 20px; */
+}
+.top-part-left span{
+	font-size: 23px;
+	color: #fff;
+}
+
+.top-part-mid{
+    /* padding-top: 10px; */
+    align-self: center;
+}
+.top-part-mid span{
+    font-size: 23px;
+    padding: 0px 10px;
+    color: #fff;
+}
+.top-part-right{
+    align-self: center;
+    padding-right: 15px;
+}
+.top-part-right span{
+    font-size: 28px;
+    color: #fff;
+}
+
+.playsel-part{
+}
+.playsel-item{
+	display: flex;
+	justify-content: flex-start;
+	background: #F7F7F7;
+	padding: 15px 0px;
+	padding-bottom: 0px;
+}
+
+.item-logo{
+	width: 70px;
+	text-align: center;
+}
+.item-logo span{
+	color: #C62F2F;
+	font-size: 22px;
+}
+.item-mess{
+	width: 100%;
+	color: grey;
+	border-bottom: 1px solid grey;
+	padding-bottom: 15px;
+}
+.item-mess-name{}
+.item-mess-num{}
+
+
+.playall-part{}
+.playall-item{}
+.playall-item h6{
+    font-size: 15px;
+    padding: 10px 0px;
+    background: #ccc;
+    position: relative;
+    padding-left: 41px;
+}
+.playall-item .insert-xiabiao{
+    top: 10px;
+    left: 13px;
+    width: 20px;
+    height: 20px;
+    background: skyblue;
+}
+.playall-item .icon-shezhi{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    font-size: 22px;
+    transform: translateY(-50%);
+}
+.playall-item-content{}
+.playall-item-list{
+    display: flex;
+    background: #ddd;
+}
+.item-list-logo{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.item-list-logo img{
+	width: 50px;
+	height: 50px;
+}
+.item-list-mess{
+    flex-grow: 1;
+    position: relative;
+    border-bottom: 1px solid grey;
+    padding-top: 13px;
+}
+.item-list-mess p{
+    line-height: 24px;
+}
+.item-list-mess .icon-xuanxiang2{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.playbot{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	display: flex;
+	width: 100%;
+	background: #fff;
+	justify-content: space-between;
+	z-index: 10;
+}
+
+.playbot-left{
+    display: flex;
+}
+.playbot-left-img{
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+}
+.playbot-left-img img{
+    width: 100%;
+    height: 100%;
+}
+.playbot-left-mess{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.playbot-left-mess span{}
+.playbot-left-mess p{
+    color: #ccc;
+}
+.playbot-right{padding-top: 15px;}
+.playbot-right span{
+    font-size: 25px;
+    padding: 0px 10px;
+}
